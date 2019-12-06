@@ -1,0 +1,26 @@
+{
+  "name": "NothinButScores.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss": "^7.0.24",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwustrack/NothinButScores.com.git"
+  },
+  "keywords": [],
+  "author": "Hans Wustrack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwustrack/NothinButScores.com/issues"
+  },
+  "homepage": "https://github.com/hwustrack/NothinButScores.com#readme"
+}
