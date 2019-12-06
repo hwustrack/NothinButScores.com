@@ -1,3 +1,16 @@
-baseURL = "http://example.org/"
+baseURL = "https://NothinButScores.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Nothin But Scores"
+pluralizelisttitles = false
+
+[params]
+info = "Follow your teams without all the noise."
+
+[[menu.main]]
+    name = "NBA"
+    weight = 2
+    url = "/nba/"
+[[menu.main]]
+    name = "PGA"
+    weight = 1
+    url  = "/pga/"

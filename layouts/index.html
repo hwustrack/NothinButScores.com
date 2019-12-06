@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="text-center text-gray-700 py-20 px-48">
+    <div class="bg-white p-4">
+            <h1 class="font-sans-serif font-semibold text-5xl text-twitter-blue bg-white">{{ .Title }}</h1>
+            <h2 class="font-sans-serif text-xl text-gray-700 bg-white">{{ .Site.Params.info }}</h2>
+            <ul class="flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-center list-reset mt-2 sm:mt-0 bg-white">
+                {{ with .Site.Menus.main}}
+                    {{ range sort . }}
+                    <li>
+                        <a href="{{ .URL | absLangURL }}" class="font-sans-serif text-gray-500 hover:text-gray-600 px-2">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+    </div>
+</article>
+{{ end }}

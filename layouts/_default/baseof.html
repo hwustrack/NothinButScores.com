@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body class="flex flex-col min-h-screen max-w-5xl mx-auto">
+        {{- partial "header.html" . -}}
+        
+        {{ if .IsHome }}
+        <main class="flex-1 sm:mx-4 md:mx-12 lg:mx-24 mt-4 sm:mt-16 bg-bamboo">
+        {{ else }}
+        <main class="flex-1 sm:mx-4 md:mx-12 lg:mx-24 mt-4 sm:mt-16">
+        {{ end }}
+
+        {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+
+    <script>
+        // js to toggle the nav-menu
+        document.getElementById('nav-open').onclick = function () {
+            document.getElementById("nav-menu").classList.toggle("hidden");
+            document.getElementById("nav-open").classList.toggle("hidden");
+            document.getElementById("nav-close").classList.toggle("hidden");
+        }
+        document.getElementById('nav-close').onclick = function () {
+            document.getElementById("nav-menu").classList.toggle("hidden");
+            document.getElementById("nav-close").classList.toggle("hidden");
+            document.getElementById("nav-open").classList.toggle("hidden");
+        }
+    </script>
+
+    </body>
+</html>
