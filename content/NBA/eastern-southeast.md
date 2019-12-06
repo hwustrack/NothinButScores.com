@@ -1,0 +1,12 @@
+---
+title: "Eastern Southeast"
+date: 2019-12-04T16:16:44+13:00
+draft: true
+weight: 3
+---
+
+- Atlanta Hawks - Not active
+- Charlotte Hornets - Not active
+- Miami Heat - Not active
+- Orlando Magic - Not active
+- Washington Wizards - Not active
