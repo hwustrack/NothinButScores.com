@@ -1,9 +1,9 @@
 {{ define "main" }}
-<article class="text-center text-gray-700 py-20 px-48">
+<article class="text-center text-gray-700 py-6 px-8 lg:py-20 lg:px-48">
     <div class="bg-white p-4">
-            <h1 class="font-sans-serif font-semibold text-5xl text-twitter-blue bg-white">{{ .Title }}</h1>
-            <h2 class="font-sans-serif text-xl text-gray-700 bg-white">{{ .Site.Params.info }}</h2>
-            <ul class="flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-center list-reset mt-2 sm:mt-0 bg-white">
+            <h1 class="font-sans-serif font-bold text-3xl md:text-4xl lg:text-5xl text-twitter-blue bg-white">{{ .Title }}</h1>
+            <h2 class="font-sans-serif text-lg md:text-xl text-gray-700 bg-white">{{ .Site.Params.info }}</h2>
+            <ul class="text-md md:text-lg flex flex-grow items-center w-auto block justify-center bg-white">
                 {{ with .Site.Menus.main}}
                     {{ range sort . }}
                     <li>
@@ -15,4 +15,5 @@
     </div>
 </article>
 <img class="m-auto" src="images\ExampleFeed.png" alt="Example Twitter Feed">
+<div class="py-2 lg:py-4"></div>
 {{ end }}
