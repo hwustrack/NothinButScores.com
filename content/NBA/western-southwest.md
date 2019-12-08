@@ -1,7 +1,6 @@
 ---
 title: "Western Southwest"
 date: 2019-12-04T16:16:52+13:00
-draft: true
 weight: 4
 ---
 

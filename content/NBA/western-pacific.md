@@ -1,7 +1,6 @@
 ---
 title: "Western Pacific"
 date: 2019-12-04T16:17:09+13:00
-draft: true
 weight: 6
 ---
 

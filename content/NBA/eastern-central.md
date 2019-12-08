@@ -1,7 +1,6 @@
 ---
 title: "Eastern Central"
 date: 2019-12-04T15:41:16+13:00
-draft: true
 weight: 2
 ---
 
