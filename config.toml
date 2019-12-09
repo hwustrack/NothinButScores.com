@@ -5,6 +5,7 @@ pluralizelisttitles = false
 
 [params]
 info = "Follow your teams without all the noise."
+secondaryinfo = "Find your favorite teams on Twitter now."
 
 [[menu.main]]
     name = "NBA"
