@@ -1,8 +1,13 @@
 <header class="w-full p-4 border-b border-gray-200">
     <nav class="flex items-center justify-between flex-wrap">
-        <a href="{{ .Site.Home.Permalink }}" class="flex items-center text-gray-700">
-            {{ .Site.Title }}
-        </a>
+        <div class="flex flex-grow items-center">
+            <a href="/" class="align-middle">
+                <img src="images\Logo.png" alt="" class="h-6 lg:h-8 pr-3">
+            </a>
+            <a href="{{ .Site.Home.Permalink }}" class="text-gray-700">
+                {{ .Site.Title }}
+            </a>
+        </div>
         <div class="block sm:hidden">
             <button id="nav-open" class="flex items-center text-gray-500 hover:text-blue-500">
                 <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
