@@ -9,9 +9,9 @@ secondaryinfo = "Find your favorite teams on Twitter now."
 
 [[menu.main]]
     name = "NBA"
-    weight = 2
+    weight = 1
     url = "/nba/"
 [[menu.main]]
     name = "PGA"
-    weight = 1
+    weight = 2
     url  = "/pga/"
