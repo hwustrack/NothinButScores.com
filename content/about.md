@@ -7,4 +7,4 @@ Do you want to follow your teams on Twitter, but don't want all of the pre/post 
 
 Nothin But Scores is a collection of team dedicated Twitter accounts that will only post final scores for their team. Follow these accounts to get final scores, right in your Twitter feed.
 
-Read more about how it's built at hanswustrack.com/projects/nothinbutscores.
+Read how it's built at [hanswustrack.com/projects/nothin-but-scores](https://hanswustrack.com/projects/nothin-but-scores/).
