@@ -5,10 +5,10 @@
             <h2 class="font-sans-serif text-md md:text-lg text-gray-700 bg-white">{{ .Site.Params.info }}</h2>
             <h2 class="font-sans-serif text-md md:text-lg text-gray-700 bg-white">{{ .Site.Params.secondaryinfo }}</h2>
             <ul class="text-md md:text-lg flex flex-grow items-center w-auto block justify-center bg-white">
-                {{ with .Site.Menus.main}}
+                {{ with .Site.Sections }}
                     {{ range sort . }}
                     <li>
-                        <a href="{{ .URL | absLangURL }}" class="font-sans-serif text-gray-500 hover:text-gray-600 px-2">{{ .Name }}</a>
+                        <a href="{{ .Permalink }}" class="font-sans-serif text-gray-500 hover:text-gray-600 px-2">{{ .Title }}</a>
                     </li>
                     {{ end }}
                 {{ end }}

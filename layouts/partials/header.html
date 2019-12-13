@@ -19,9 +19,9 @@
             </button>
         </div>
         <ul id="nav-menu" class="w-full flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-end list-reset mt-2 sm:mt-0">
-            {{ range .Site.Sections }}
+            {{ range .Site.Menus.main }}
             <li>
-                <a href="{{ .Permalink }}" class="inline-block text-gray-500 sm:px-2 hover:text-gray-600">{{ .Title }}</a>
+                <a href="{{ .URL | absLangURL }}" class="inline-block text-gray-500 sm:px-2 hover:text-gray-600">{{ .Name }}</a>
             </li>
             {{ end }}
         </ul>
