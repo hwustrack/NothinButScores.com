@@ -8,4 +8,4 @@ weight: 3
 - Charlotte Hornets - Not active
 - Miami Heat - Not active
 - Orlando Magic - Not active
-- Washington Wizards - Not active
+- Washington Wizards - [@Wizards_Scores](https://twitter.com/Wizards_Scores)
