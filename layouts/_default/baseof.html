@@ -5,9 +5,9 @@
         {{- partial "header.html" . -}}
         
         {{ if .IsHome }}
-        <main class="flex-1 sm:mx-4 md:mx-12 lg:mx-24 mt-4 sm:mt-16 bg-sports-icons">
+        <main class="flex-1 m-2 bg-sports-icons">
         {{ else }}
-        <main class="flex-1 sm:mx-4 md:mx-12 lg:mx-24 mt-4 sm:mt-16">
+        <main class="flex-1 m-2 md:m-6">
         {{ end }}
 
         {{- block "main" . }}{{- end }}
