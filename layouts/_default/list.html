@@ -1,6 +1,6 @@
 {{ define "main" }}
     <h1 class="font-bold font-thin text-3xl text-gray-800 text-center">{{ .Section }}</h1>
-    <div class="flex items-center justify-between flex-wrap">
+    <div class="flex flex-wrap justify-center md:justify-between text-center">
         {{ range .Pages.ByWeight }}
             <article class="text-gray-700 mx-4 sm:mx-12 mb-4">
                 <h2 class="font-bold font-thin text-2xl text-gray-700">{{ .Title }}</h2>
