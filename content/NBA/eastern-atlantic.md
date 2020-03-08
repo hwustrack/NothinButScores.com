@@ -8,4 +8,4 @@ weight: 1
 - Brooklyn Nets - Not active
 - New York Knicks - Not active
 - Philadelphia 76ers - Not active
-- Toronto Raptors - Not active
+- Toronto Raptors - [@Raptors_Scores](https://twitter.com/raptors_scores)
