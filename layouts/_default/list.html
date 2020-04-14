@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <h1 class="font-bold font-thin text-3xl text-gray-800 text-center">{{ .Section }}</h1>
+    <h1 class="font-bold font-thin text-3xl text-gray-800 text-center">{{ upper .Section }}</h1>
     {{ if gt (len .Pages) 1}}
     <div class="flex flex-wrap justify-center md:justify-between text-center">
         {{ range .Pages.ByWeight }}
